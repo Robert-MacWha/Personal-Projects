@@ -7,7 +7,7 @@
 - C / C++ Projects
 - Java Projects
 
-## [Python Projects](_docs/Python.md)
+## [Python Projects](_Docs/Python.md)
 ### Autoencoders
 - Autoencoders - Article Aid
 - Celeba Autoencoder
@@ -42,7 +42,7 @@
 - Reinforcement Learning - Article Aid
 - Reinforcement Learning Test
 
-## [Javascript Projects](_docs/Javascript.md)
+## [Javascript Projects](_Docs/Javascript.md)
 ### AI
 - NEAT Implementation
 - Neural Network Example
@@ -92,7 +92,7 @@
 - Marching Squares
 - Vertex Shader Test
 
-## [C / C++ Projects](_docs/C_C++.md)
+## [C / C++ Projects](_Docs/C_C++.md)
 - Flowing Lights
 - Simple 8-Bit Counter
 - Gyroscope SDA/SCL Communication Test
@@ -107,7 +107,7 @@
 - School Database
 - Airline Database
 
-## [Java Projects](_docs/Java.md)
+## [Java Projects](_Docs/Java.md)
 - Elementary Particle Simulation
 - Visual NEAT Implementation
 - 3D Grapher
