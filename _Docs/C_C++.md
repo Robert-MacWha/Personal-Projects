@@ -20,7 +20,7 @@
 A simple project created to help me learn about interacting with Arduinos and individual pins.  This project enables and disables pins in such a way that attached LEDs will appear to smoothly flow in a line.
 
 ### Simple 8-Bit Counter
-<img align="right" width="25%" src="../C_C++\C\Simple_8-bit_Binary_Counter\Project.JPG"></img>
+<img align="right" width="25%" src="../C_C++\C\Simple_8-bit_Binary_Counter\Project.jpg"></img>
 A 8-bit counter that displays the current count through attached LEDs. Interestingly, by removing the delay and changing the number of bits being counted you can get a feel for the clock speed of the arduino.
 
 ### Gyroscope SDA/SCL Communication Test
