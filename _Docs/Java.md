@@ -3,10 +3,10 @@
 - [Elementary Particle Simulation](#elementary-particle-simulation)
 - [Visual NEAT Implementation](#visual-neat-implementation)
 - [3D Grapher](#3d-grapher)
-- Water Particle Simulation](#water-particle-simulator)
+- [Water Particle Simulation](#water-particle-simulator)
 ## Pure Java
 - [NEAT Implementation](#neat-implementation)
-- [NEAT Racecars](#neat-racecars)
+- [:star: NEAT Racecars](#neat-racecars)
 
 ### Elementary Particle Simulation
 <img align="right" width="30%" src="../Java\_Processing\NEAT\Visualization.PNG"></img>
@@ -25,6 +25,6 @@ A particle simulation that attempts to create a fluid that reacts in a similar w
 ### NEAT Implementation
 An implementation of the NEAT algorithm written in pure java. A precursor to my [Visual NEAT Implementation](#visual-neat-implementation) and to my [NEAT Racecar Project](#neat-racecar).
 
-### NEAT Racecars
+### :star: NEAT Racecars
 <img align="left" width="40%" src="../Java\NEAT Racecars\Evolution.PNG"></img>
 A large-scale project I created as a final project for my Grade 11 ITGS class.  This project contains a fully-functional map editor with only minor glitches and a NEAT environment where agents train to race around your custom track.

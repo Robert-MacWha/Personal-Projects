@@ -12,14 +12,11 @@
 - Autoencoders - Article Aid
 - Celeba Autoencoder
 - Micro MNIST Autoencoder
-- Pokemon Autoencoder
-- Pong Generator
+- :star: Pong Generator
 ### Convolutional Networks
-- CNN CFAIR
-- CNN Fashion MNIST
-- CNN OCR
+- CNN CIFAR
+- :star: CNN OCR
 - RGB-Depth CNN
-- XOR Classifier
 ### Generative Adversarial Networks
 - MNIST GAN
 - Pokemon GAN
@@ -30,7 +27,7 @@
 - Stock Predictor
 ### Misc
 - Basic Linear Regression (First AI project!)
-- Flowkey Web Scraper
+- :star: Flowkey Web Scraper
 - Hashcode 2020 Problem
 - Movie Recommender
 - Spam Detector
@@ -39,20 +36,20 @@
 - Acrobat Q Learning
 - MaRLio
 - PPO Test
-- Reinforcement Learning - Article Aid
+- :star: Reinforcement Learning - Article Aid
 - Reinforcement Learning Test
 
 ## [Javascript Projects](_Docs/Javascript.md)
 ### AI
 - NEAT Implementation
 - Neural Network Example
-- Polynomial Regression
+- :star: Polynomial Regression
 - XOR Visualization
 ### Artificial Life
 - Boids
 - Langdon's Ant
 - Population Growth Mode
-- Smart Rockets
+- :star: Smart Rockets
 - Steering Agents
 ### Misalanious
 - Path Difference
@@ -80,7 +77,7 @@
 - Spring Simulation
 - Water Particle Simulation
 - Bi-State Wave Cellular Autonoma
-- Wireworld
+- :star: Wireworld
 ### Visualizations
 - Arbitrary Function Mapper
 - Complex Equation Grapher
@@ -89,7 +86,7 @@
 - Fourier Series
 - Fourier Transform
 - Fractle Generator
-- Marching Squares
+- :star: Marching Squares
 - Vertex Shader Test
 
 ## [C / C++ Projects](_Docs/C_C++.md)
@@ -105,7 +102,7 @@
 - Deck of Cards
 - War Game
 - School Database
-- Airline Database
+- :star: Airline Database
 
 ## [Java Projects](_Docs/Java.md)
 - Elementary Particle Simulation
@@ -113,4 +110,4 @@
 - 3D Grapher
 - Water Particle Simulation
 - NEAT Implementation
-- NEAT Racecars
+- :star: NEAT Racecars

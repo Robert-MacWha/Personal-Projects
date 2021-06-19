@@ -64,7 +64,7 @@ for i in range(64):
     encoded_ranges[i][0] = np.amin(encoded_ranges[:][i])
     encoded_ranges[i][1] = np.amax(encoded_ranges[:][i])
 
-# Generate a random uniform set of latent dims centered arround the ranges
+# Generate a random uniform set of latent dims centered around the ranges
 latent_samples = numpy.random.normal(size=(25, 64)) + 0.5
 
 for i in range(64):

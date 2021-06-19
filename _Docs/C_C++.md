@@ -14,7 +14,7 @@
 - [Deck of Cards](#deck-of-cards)
 - [War Game](#war-game)
 - [School Database](#school-database)
-- [Airline Database](#airline-database)
+- [:star: Airline Database](#airline-database)
 
 ### Flowing Lights
 A simple project created to help me learn about interacting with Arduinos and individual pins.  This project enables and disables pins in such a way that attached LEDs will appear to smoothly flow in a line.
@@ -53,6 +53,6 @@ A medium-scale project on creating a functional game of war played over the term
 ### School Database
 A medium-scale project on creating a functional mock database for a school that contains functionality for teachers, students, and classes.  A precursor to my [Airline Database Project](#airline-database).
 
-### Airline Database
+### :star: Airline Database
 <img align="left" width="30%" src="../C_C++\C++\Airline Database\Documentation.PNG"></img>
 A large-scale project on creating a functional mock airline database with documentation.  This was created as a final project for my Grade 12 ITGS course.  Documentation is included inside of the project files and a website was also created that details the more minute details, currently hosted [here](https://robert-macwha.github.io/Extra/ITGS%20Documentation/index.html).
