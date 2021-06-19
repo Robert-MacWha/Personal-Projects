@@ -2,7 +2,7 @@
  A Collection of all the projects I've made since the start of 2020 with an **attempt** of orginization, & documentation
 
 # Primary Categories
-- [:star: Starred](#:star:-starred)
+- [:star: Starred](#star-starred)
 - [Python projects](#python-projects)
 - [Javascript projects](#javascript-projects)
 - [C / C++ Projects](#c--c-projects)
@@ -37,7 +37,7 @@
 - Pokemon GAN
 
 ### Long-Short Term Memory Networks
-- Linear LSTM
+- Linear -> LSTM
 - MNIST RNN
 - Simple RNN
 - Stock Predictor
