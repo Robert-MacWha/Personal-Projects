@@ -52,6 +52,8 @@ The AI environment is made up of two distinct models - an engine and a renderer.
 
 Separate models were used for the renderer and engine portions because it allowed me to train them separately.  This meant that I could go over more iterations of different hyperparameters in less time.
 
+This project works best on a local machine. Here is a [link](https://drive.google.com/drive/folders/1IERfi_D6OR623-C8V3DVgCRJYochLg_v?usp=sharing) to a google drive containing all the required files.
+
 ### CNN CIFAR
 A convolutional classifier I created when learning about colvolutional neural networks.  This model is able to classify images from the CIFAR-10 dataset.
 

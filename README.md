@@ -2,10 +2,23 @@
  A Collection of all the projects I've made since the start of 2020 with an **attempt** of orginization, & documentation
 
 # Primary Categories
+- [:star: Starred](#:star:-starred)
 - [Python projects](#python-projects)
 - [Javascript projects](#javascript-projects)
 - [C / C++ Projects](#c--c-projects)
 - [Java Projects](#java-projects)
+
+## :star: Starred
+- [:star: Pong Generator](#)
+- [:star: NEAT Racecars](#)
+- [:star: CNN OCR](#)
+- [:star: Flowkey Web Scraper](#)
+- [:star: Polynomial Regression](#)
+- [:star: Smart Rockets](#)
+- [:star: Wireworld](#)
+- [:star: Airline Database](#)
+- [:star: Reinforcement Learning - Article Aid](#)
+- [:star: Marching Squares](#)
 
 ## [Python Projects](_Docs/Python.md)
 ### Autoencoders
@@ -13,18 +26,22 @@
 - Celeba Autoencoder
 - Micro MNIST Autoencoder
 - :star: Pong Generator
+
 ### Convolutional Networks
 - CNN CIFAR
 - :star: CNN OCR
 - RGB-Depth CNN
+
 ### Generative Adversarial Networks
 - MNIST GAN
 - Pokemon GAN
+
 ### Long-Short Term Memory Networks
 - Linear LSTM
 - MNIST RNN
 - Simple RNN
 - Stock Predictor
+
 ### Misc
 - Basic Linear Regression (First AI project!)
 - :star: Flowkey Web Scraper
@@ -32,6 +49,7 @@
 - Movie Recommender
 - Spam Detector
 - Transfer Learning Test
+
 ### Reinforcement Learning
 - Acrobat Q Learning
 - MaRLio
@@ -45,18 +63,21 @@
 - Neural Network Example
 - :star: Polynomial Regression
 - XOR Visualization
+
 ### Artificial Life
 - Boids
 - Langdon's Ant
 - Population Growth Mode
 - :star: Smart Rockets
 - Steering Agents
+
 ### Misalanious
 - Path Difference
 - Directional Path Difference
 - Calculating PI With Blocks
 - Calculating PI With Fractions
 - Async Tutorial
+
 ### Perlin Noise
 - Coloured 2D Islands
 - Coloured 2D Heightmaps
@@ -69,6 +90,7 @@
 - Simple 2D Heightmaps
 - Warped 2D Heightmaps
 - Wirley Noise
+
 ### Physics Simulations
 - Bouncing Ray
 - Lorenz Attractor
@@ -78,6 +100,7 @@
 - Water Particle Simulation
 - Bi-State Wave Cellular Autonoma
 - :star: Wireworld
+
 ### Visualizations
 - Arbitrary Function Mapper
 - Complex Equation Grapher
