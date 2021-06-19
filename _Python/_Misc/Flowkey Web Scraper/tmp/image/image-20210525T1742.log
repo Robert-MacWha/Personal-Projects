@@ -1,0 +1,211 @@
+2021-05-25 17:42:18,970 INFO [image]                 Book.java:473  | 1 sheet in .\tmp\image.png
+2021-05-25 17:42:19,150 INFO []                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:19,151 INFO []                 Book.java:1613 | Book stored as .\tmp\image\image.omr
+2021-05-25 17:42:19,155 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1]
+2021-05-25 17:42:19,157 INFO [image]       StepMonitoring.java:93   | LOAD
+2021-05-25 17:42:19,439 INFO [image]                 Book.java:1226 | Loaded image 1 30720x504 from .\tmp\image.png
+2021-05-25 17:42:19,448 INFO [image]            ImageUtil.java:81   | Converting max RGB to gray ...
+2021-05-25 17:42:19,851 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:20,005 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:20,007 INFO [image]       StepMonitoring.java:93   | BINARY
+2021-05-25 17:42:20,877 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:21,425 INFO [image]              Picture.java:784  | Stored /sheet#1/BINARY.xml
+2021-05-25 17:42:21,426 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:21,428 INFO [image]       StepMonitoring.java:93   | SCALE
+2021-05-25 17:42:21,464 INFO [image]         ScaleBuilder.java:557  | Second combo peak too different (117,117,117), ignored
+2021-05-25 17:42:21,465 INFO [image]         ScaleBuilder.java:492  | Beam minHeight:5 maxHeight:16 quorum:6664
+2021-05-25 17:42:21,465 INFO [image]         ScaleBuilder.java:235  | No beam key found, guessed value: 10
+2021-05-25 17:42:21,465 INFO [image]            ScaleStep.java:84   | Scale{line(2,2,3) interline(18,18,18) beam(10 extra)}
+2021-05-25 17:42:21,473 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:21,475 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:21,477 INFO [image]       StepMonitoring.java:93   | GRID
+2021-05-25 17:42:22,091 INFO [image]       LinesRetriever.java:447  | Global slope: 0.00000
+2021-05-25 17:42:22,239 INFO [image]    ClustersRetriever.java:235  | Retrieved line clusters: 2 of size: 5 with interline: interline(18,18,18)
+2021-05-25 17:42:22,660 INFO [image]            PeakGraph.java:177  | Systems: #1[1, 2]
+2021-05-25 17:42:23,322 INFO [image]        SystemManager.java:731  | 1 part along 1 system
+2021-05-25 17:42:23,332 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:23,453 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:23,456 INFO [image]       StepMonitoring.java:93   | HEADERS
+2021-05-25 17:42:23,595 INFO [image]      BasicClassifier.java:362  | Classifier loaded XML norms.
+2021-05-25 17:42:23,598 INFO [image]   AbstractClassifier.java:348  | Classifier data loaded from default uri jar:file:/C:/Program%20Files/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2021-05-25 17:42:24,059 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:24,148 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:24,150 INFO [image]       StepMonitoring.java:93   | STEM_SEEDS
+2021-05-25 17:42:24,246 INFO [image]        StemSeedsStep.java:93   | stem(3 max:4)
+2021-05-25 17:42:24,322 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:24,433 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:24,435 INFO [image]       StepMonitoring.java:93   | BEAMS
+2021-05-25 17:42:29,435 INFO [image]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 16.2
+2021-05-25 17:42:29,667 INFO [image]       BlackHeadSizer.java:243  | Core black head count: 179 blackHead(width:23.2~0.4 height:20.1~0.3)
+2021-05-25 17:42:29,668 INFO [image]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:77}
+2021-05-25 17:42:29,866 INFO [image]            BeamsStep.java:86   | BeamDistance{count:4 mean:0.01 stdDev:0.02}
+2021-05-25 17:42:29,876 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:30,010 INFO [image]              Picture.java:784  | Stored /sheet#1/HEAD_SPOTS.xml
+2021-05-25 17:42:30,339 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:30,581 INFO [image]       StepMonitoring.java:93   | LEDGERS
+2021-05-25 17:42:31,720 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:31,968 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:31,970 INFO [image]       StepMonitoring.java:93   | HEADS
+2021-05-25 17:42:43,646 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:44,126 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:44,129 INFO [image]       StepMonitoring.java:93   | STEMS
+2021-05-25 17:42:46,977 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:47,520 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:47,522 INFO [image]       StepMonitoring.java:93   | REDUCTION
+2021-05-25 17:42:47,658 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:48,137 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:48,139 INFO [image]       StepMonitoring.java:93   | CUE_BEAMS
+2021-05-25 17:42:48,162 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:48,641 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:48,644 INFO [image]       StepMonitoring.java:93   | TEXTS
+2021-05-25 17:42:54,000 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:54,437 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:54,440 INFO [image]       StepMonitoring.java:93   | MEASURES
+2021-05-25 17:42:54,445 INFO [image]                 Page.java:251  | 67 raw measures: [67 in system#1]
+2021-05-25 17:42:54,453 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:54,906 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:54,909 INFO [image]       StepMonitoring.java:93   | CHORDS
+2021-05-25 17:42:54,996 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:55,483 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:55,486 INFO [image]       StepMonitoring.java:93   | CURVES
+2021-05-25 17:42:57,395 INFO [image]         SlursBuilder.java:156  | Slurs: 42
+2021-05-25 17:42:57,439 INFO [image]      SegmentsBuilder.java:110  | Segments: 39
+2021-05-25 17:42:57,459 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:58,159 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:58,234 INFO [image]       StepMonitoring.java:93   | SYMBOLS
+2021-05-25 17:42:58,481 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,503 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,521 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,542 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,561 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,579 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,610 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,637 INFO [image]         InterFactory.java:517  | No support yet for TIME_ZERO
+2021-05-25 17:42:58,828 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:42:59,662 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:42:59,664 INFO [image]       StepMonitoring.java:93   | LINKS
+2021-05-25 17:42:59,717 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:43:00,552 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:43:00,864 INFO [image]       StepMonitoring.java:93   | RHYTHMS
+2021-05-25 17:43:00,937 INFO [image]                Voice.java:234  | S1 Measure{#55P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,938 INFO [image]                Voice.java:234  | S1 Measure{#55P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,938 INFO [image]                Voice.java:234  | S1 Measure{#55P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,938 INFO [image]           StackTuner.java:88   | S1 MeasureStack#55 no correct rhythm
+2021-05-25 17:43:00,940 INFO [image]                Voice.java:234  | S1 Measure{#56P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,941 INFO [image]                Voice.java:234  | S1 Measure{#56P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,941 INFO [image]                Voice.java:234  | S1 Measure{#56P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,941 INFO [image]           StackTuner.java:88   | S1 MeasureStack#56 no correct rhythm
+2021-05-25 17:43:00,943 INFO [image]                Voice.java:234  | S1 Measure{#57P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,944 INFO [image]                Voice.java:234  | S1 Measure{#57P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,944 INFO [image]                Voice.java:234  | S1 Measure{#57P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,945 INFO [image]           StackTuner.java:88   | S1 MeasureStack#57 no correct rhythm
+2021-05-25 17:43:00,947 INFO [image]                Voice.java:234  | S1 Measure{#58P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,947 INFO [image]                Voice.java:234  | S1 Measure{#58P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,947 INFO [image]                Voice.java:234  | S1 Measure{#58P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,947 INFO [image]           StackTuner.java:88   | S1 MeasureStack#58 no correct rhythm
+2021-05-25 17:43:00,949 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #1 too long 1/2
+2021-05-25 17:43:00,950 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,950 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,950 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,951 INFO [image]           StackTuner.java:88   | S1 MeasureStack#59 no correct rhythm
+2021-05-25 17:43:00,953 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #1 too long 3/8
+2021-05-25 17:43:00,953 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,953 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,954 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,954 INFO [image]           StackTuner.java:88   | S1 MeasureStack#60 no correct rhythm
+2021-05-25 17:43:00,956 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,956 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,957 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,957 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,957 INFO [image]           StackTuner.java:88   | S1 MeasureStack#61 no correct rhythm
+2021-05-25 17:43:00,959 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,959 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,960 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,960 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,961 INFO [image]           StackTuner.java:88   | S1 MeasureStack#62 no correct rhythm
+2021-05-25 17:43:00,963 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,964 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,964 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,964 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,964 INFO [image]           StackTuner.java:88   | S1 MeasureStack#63 no correct rhythm
+2021-05-25 17:43:00,967 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,967 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,967 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,967 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,968 INFO [image]           StackTuner.java:88   | S1 MeasureStack#64 no correct rhythm
+2021-05-25 17:43:00,970 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #1 too long 1/2
+2021-05-25 17:43:00,970 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,970 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,970 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,971 INFO [image]           StackTuner.java:88   | S1 MeasureStack#65 no correct rhythm
+2021-05-25 17:43:00,974 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #1 too long 3/8
+2021-05-25 17:43:00,975 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,975 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,975 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,976 INFO [image]           StackTuner.java:88   | S1 MeasureStack#66 no correct rhythm
+2021-05-25 17:43:00,976 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #1 too long 1/4
+2021-05-25 17:43:00,976 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #2 too long 1/4
+2021-05-25 17:43:00,977 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #5 too long 1/4
+2021-05-25 17:43:00,977 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #6 too long 1/4
+2021-05-25 17:43:00,977 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #7 too long 1/4
+2021-05-25 17:43:00,977 INFO [image]           StackTuner.java:88   | S1 MeasureStack#67 no correct rhythm
+2021-05-25 17:43:00,987 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:43:01,870 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:43:02,131 INFO [image]       StepMonitoring.java:93   | PAGE
+2021-05-25 17:43:02,134 INFO [image]                Voice.java:234  | S1 Measure{#55P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,134 INFO [image]                Voice.java:234  | S1 Measure{#55P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,134 INFO [image]                Voice.java:234  | S1 Measure{#55P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,134 INFO [image]                Voice.java:234  | S1 Measure{#56P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,134 INFO [image]                Voice.java:234  | S1 Measure{#56P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,135 INFO [image]                Voice.java:234  | S1 Measure{#56P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,135 INFO [image]                Voice.java:234  | S1 Measure{#57P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,135 INFO [image]                Voice.java:234  | S1 Measure{#57P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,135 INFO [image]                Voice.java:234  | S1 Measure{#57P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,135 INFO [image]                Voice.java:234  | S1 Measure{#58P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,136 INFO [image]                Voice.java:234  | S1 Measure{#58P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,136 INFO [image]                Voice.java:234  | S1 Measure{#58P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,136 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #1 too long 1/2
+2021-05-25 17:43:02,136 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,136 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,137 INFO [image]                Voice.java:234  | S1 Measure{#59P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,137 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #1 too long 3/8
+2021-05-25 17:43:02,137 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,138 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,138 INFO [image]                Voice.java:234  | S1 Measure{#60P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,138 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,139 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,139 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,139 INFO [image]                Voice.java:234  | S1 Measure{#61P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,139 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,139 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,139 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,140 INFO [image]                Voice.java:234  | S1 Measure{#62P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,140 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,140 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,140 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,140 INFO [image]                Voice.java:234  | S1 Measure{#63P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,141 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,141 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,141 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,141 INFO [image]                Voice.java:234  | S1 Measure{#64P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,141 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #1 too long 1/2
+2021-05-25 17:43:02,142 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,142 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,142 INFO [image]                Voice.java:234  | S1 Measure{#65P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,142 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #1 too long 3/8
+2021-05-25 17:43:02,142 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,143 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,143 INFO [image]                Voice.java:234  | S1 Measure{#66P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,143 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #1 too long 1/4
+2021-05-25 17:43:02,143 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #2 too long 1/4
+2021-05-25 17:43:02,143 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #5 too long 1/4
+2021-05-25 17:43:02,144 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #6 too long 1/4
+2021-05-25 17:43:02,144 INFO [image]                Voice.java:234  | S1 Measure{#67P1} Voice #7 too long 1/4
+2021-05-25 17:43:02,152 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:43:03,030 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-25 17:43:03,432 INFO [image]            SheetStub.java:979  | Sheet{image} disposed
+2021-05-25 17:43:04,081 INFO [image]            SheetStub.java:632  | Loaded /sheet#1/sheet#1.xml
+2021-05-25 17:43:04,082 INFO [image]                 Book.java:1451 | Scores built: 1
+2021-05-25 17:43:04,676 INFO [image]        ScoreExporter.java:88   | Score image exported to .\tmp\image\image.mxl
+2021-05-25 17:43:04,763 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-25 17:43:04,764 INFO [image]                 Book.java:1613 | Book stored as .\tmp\image\image.omr

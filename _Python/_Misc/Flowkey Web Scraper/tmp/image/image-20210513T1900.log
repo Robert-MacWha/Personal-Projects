@@ -1,0 +1,116 @@
+2021-05-13 19:00:44,359 INFO [image]                 Book.java:473  | 1 sheet in .\tmp\image.png
+2021-05-13 19:00:44,455 INFO []                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:44,456 INFO []                 Book.java:1613 | Book stored as .\tmp\image\image.omr
+2021-05-13 19:00:44,458 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1]
+2021-05-13 19:00:44,459 INFO [image]       StepMonitoring.java:93   | LOAD
+2021-05-13 19:00:44,888 INFO [image]                 Book.java:1226 | Loaded image 1 53248x413 from .\tmp\image.png
+2021-05-13 19:00:44,890 INFO [image]            ImageUtil.java:81   | Converting max RGB to gray ...
+2021-05-13 19:00:45,382 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:45,513 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:00:45,515 INFO [image]       StepMonitoring.java:93   | BINARY
+2021-05-13 19:00:46,717 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:47,568 INFO [image]              Picture.java:784  | Stored /sheet#1/BINARY.xml
+2021-05-13 19:00:47,569 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:00:47,572 INFO [image]       StepMonitoring.java:93   | SCALE
+2021-05-13 19:00:47,610 INFO [image]         ScaleBuilder.java:492  | Beam minHeight:5 maxHeight:16 quorum:11096
+2021-05-13 19:00:47,611 INFO [image]            ScaleStep.java:84   | Scale{line(2,2,2) interline(18,18,18) beam(10)}
+2021-05-13 19:00:47,620 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:47,621 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:00:47,624 INFO [image]       StepMonitoring.java:93   | GRID
+2021-05-13 19:00:48,361 INFO [image]       LinesRetriever.java:447  | Global slope: 0.00000
+2021-05-13 19:00:48,538 INFO [image]    ClustersRetriever.java:235  | Retrieved line clusters: 2 of size: 5 with interline: interline(18,18,18)
+2021-05-13 19:00:49,389 INFO [image]            PeakGraph.java:177  | Systems: #1[1, 2]
+2021-05-13 19:00:50,123 INFO [image]        SystemManager.java:731  | 1 part along 1 system
+2021-05-13 19:00:50,126 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:50,263 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:00:50,273 INFO [image]       StepMonitoring.java:93   | HEADERS
+2021-05-13 19:00:50,400 INFO [image]      BasicClassifier.java:362  | Classifier loaded XML norms.
+2021-05-13 19:00:50,404 INFO [image]   AbstractClassifier.java:348  | Classifier data loaded from default uri jar:file:/C:/Program%20Files/Audiveris/lib/audiveris.jar!/res/basic-classifier.zip
+2021-05-13 19:00:50,835 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:50,956 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:00:50,958 INFO [image]       StepMonitoring.java:93   | STEM_SEEDS
+2021-05-13 19:00:51,055 INFO [image]        StemSeedsStep.java:93   | stem(3 max:4)
+2021-05-13 19:00:51,157 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:00:51,315 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:00:51,318 INFO [image]       StepMonitoring.java:93   | BEAMS
+2021-05-13 19:00:58,424 INFO [image]       BlackHeadSizer.java:95   | Spots black-head retrieval diameter: 16.2
+2021-05-13 19:00:58,950 INFO [image]       BlackHeadSizer.java:243  | Core black head count: 441 blackHead(width:23.3~0.5 height:20.2~0.4)
+2021-05-13 19:00:58,951 INFO [image]       BlackHeadSizer.java:248  | MusicFont{name:MusicalSymbols pointSize:78}
+2021-05-13 19:00:59,776 INFO [image]            BeamsStep.java:86   | BeamDistance{count:343 mean:10.74 stdDev:5.61}
+2021-05-13 19:00:59,780 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:00,055 INFO [image]              Picture.java:784  | Stored /sheet#1/HEAD_SPOTS.xml
+2021-05-13 19:01:00,679 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:01,703 INFO [image]       StepMonitoring.java:93   | LEDGERS
+2021-05-13 19:01:02,874 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:03,583 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:03,586 INFO [image]       StepMonitoring.java:93   | HEADS
+2021-05-13 19:01:23,135 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:24,307 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:24,310 INFO [image]       StepMonitoring.java:93   | STEMS
+2021-05-13 19:01:27,841 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:29,258 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:29,261 INFO [image]       StepMonitoring.java:93   | REDUCTION
+2021-05-13 19:01:29,529 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:30,796 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:30,799 INFO [image]       StepMonitoring.java:93   | CUE_BEAMS
+2021-05-13 19:01:30,829 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:32,074 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:32,077 INFO [image]       StepMonitoring.java:93   | TEXTS
+2021-05-13 19:01:32,080 WARN [image]            TextsStep.java:82   | TEXTS step: No OCR is available!
+2021-05-13 19:01:32,090 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:33,331 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:33,334 INFO [image]       StepMonitoring.java:93   | MEASURES
+2021-05-13 19:01:33,339 INFO [image]                 Page.java:251  | 56 raw measures: [56 in system#1]
+2021-05-13 19:01:33,347 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:34,580 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:34,583 INFO [image]       StepMonitoring.java:93   | CHORDS
+2021-05-13 19:01:34,743 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:36,050 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:36,053 INFO [image]       StepMonitoring.java:93   | CURVES
+2021-05-13 19:01:38,293 INFO [image]         SlursBuilder.java:156  | Slurs: 104
+2021-05-13 19:01:38,345 INFO [image]      SegmentsBuilder.java:110  | Segments: 40
+2021-05-13 19:01:38,366 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:39,545 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:39,688 INFO [image]       StepMonitoring.java:93   | SYMBOLS
+2021-05-13 19:01:40,285 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:41,513 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:41,516 INFO [image]       StepMonitoring.java:93   | LINKS
+2021-05-13 19:01:41,636 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:42,824 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:42,827 INFO [image]       StepMonitoring.java:93   | RHYTHMS
+2021-05-13 19:01:42,862 INFO [image]         SlotsBuilder.java:340  | Stack#21 suspicious Slot{#3 xOffset=204 timeOffset=1/4 incomings=[#14259]}
+2021-05-13 19:01:42,943 INFO [image]         SlotsBuilder.java:378  | Stack#21 endless loop detected
+2021-05-13 19:01:42,955 INFO [image]                Voice.java:234  | S1 Measure{#32P1} Voice #1 too long 1
+2021-05-13 19:01:42,955 INFO [image]           StackTuner.java:88   | S1 MeasureStack#32 no correct rhythm
+2021-05-13 19:01:43,002 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:44,324 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:44,327 INFO [image]       StepMonitoring.java:93   | PAGE
+2021-05-13 19:01:44,330 INFO [image]                Voice.java:234  | S1 Measure{#32P1} Voice #1 too long 1
+2021-05-13 19:01:44,343 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:45,572 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 19:01:45,674 INFO [image]            SheetStub.java:979  | Sheet{image} disposed
+2021-05-13 19:01:46,518 INFO [image]            SheetStub.java:632  | Loaded /sheet#1/sheet#1.xml
+2021-05-13 19:01:46,519 INFO [image]                 Book.java:1451 | Scores built: 1
+2021-05-13 19:01:47,064 WARN [image]      PartwiseBuilder.java:1295 | Error visiting FermataInter{#14303(0.273/0.652) s:1 FERMATA}
+java.lang.NullPointerException: null
+	at org.audiveris.omr.score.PartwiseBuilder.processFermata(PartwiseBuilder.java:1281)
+	at org.audiveris.omr.score.PartwiseBuilder.processBarline(PartwiseBuilder.java:954)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:1726)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2095)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:2553)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1447)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:2508)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2124)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2304)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:2818)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:113)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:87)
+	at org.audiveris.omr.sheet.Book.export(Book.java:622)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:447)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:538)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:312)
+	at org.audiveris.omr.Main.main(Main.java:153)
+	at Audiveris.main(Audiveris.java:49)
+2021-05-13 19:01:47,176 INFO [image]        ScoreExporter.java:88   | Score image exported to .\tmp\image\image.mxl
+2021-05-13 19:01:47,288 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 19:01:47,288 INFO [image]                 Book.java:1613 | Book stored as .\tmp\image\image.omr

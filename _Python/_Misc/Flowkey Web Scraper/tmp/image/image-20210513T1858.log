@@ -1,0 +1,12 @@
+2021-05-13 18:58:15,425 INFO [image]                 Book.java:473  | 1 sheet in .\tmp\image.png
+2021-05-13 18:58:15,521 INFO []                 Book.java:1660 | Stored /book.xml
+2021-05-13 18:58:15,522 INFO []                 Book.java:1613 | Book stored as .\tmp\image\image.omr
+2021-05-13 18:58:15,525 INFO []                 Book.java:1327 | Book reaching PAGE on sheets:[#1]
+2021-05-13 18:58:15,526 INFO [image]       StepMonitoring.java:93   | LOAD
+2021-05-13 18:58:15,945 INFO [image]                 Book.java:1226 | Loaded image 1 53248x413 from .\tmp\image.png
+2021-05-13 18:58:15,991 WARN [image]            SheetStub.java:310  | Too large image: 21,991,424 pixels (vs 20,000,000 max)
+2021-05-13 18:58:15,991 INFO [image]            SheetStub.java:683  | Sheet image flagged as invalid.
+2021-05-13 18:58:15,994 INFO [image]            SheetStub.java:843  | StepException cause detected in [LOAD, BINARY, SCALE, GRID, HEADERS, STEM_SEEDS, BEAMS, LEDGERS, HEADS, STEMS, REDUCTION, CUE_BEAMS, TEXTS, MEASURES, CHORDS, CURVES, SYMBOLS, LINKS, RHYTHMS, PAGE]
+2021-05-13 18:58:16,030 INFO [image]                 Book.java:1660 | Stored /book.xml
+2021-05-13 18:58:16,156 INFO [image]                Sheet.java:1246 | Stored /sheet#1/sheet#1.xml
+2021-05-13 18:58:16,156 INFO [image]                 Book.java:1613 | Book stored as .\tmp\image\image.omr

@@ -1,0 +1,57 @@
+<html><head></head><body>
+<canvas id="myCanvas" width="800" height="800"></canvas>
+<script>
+var creal = -.8
+var cimag = .156;
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var frame = 0;
+ 
+var pallette=[]; //an array that stores the RGB combinations
+ 
+function julia()
+{
+        for(y=0;y<400;y++)
+                {
+                for(x=0;x<400;x++)
+                        {
+                        var cx=-1+x/200;
+                        var cy=-1+y/200;
+                        var i = 0;
+ 
+                        do
+                                {
+                                xt=cx*cx-cy*cy+creal;
+                                cy=2*cx*cy+cimag;
+                                cx=xt;
+                                i++;
+                                }
+                        while ((cx*cx+cy*cy<4)&&i<25);
+ 
+                        //i=i.toString(16); - commented out since not needed in this version
+                        context.beginPath();
+                        context.rect(x*1, y*1, 1, 1);
+                        context.fillStyle = pallette[i];
+                        context.fill();
+                        }
+                }
+        frame++;
+        creal=-.1+.2*Math.sin(frame/(3.14*10));
+        cimag=.5+.2*Math.cos(frame/(3.14*400));
+        
+}
+ 
+for(x=0;x<9;x++) // this loop populates the color pallette array
+        {
+        color=(31*x).toString(16); // convert the number to hex
+        if(color.length==1) color='0'+color;  // add a zero in front if only one hex digit
+        pallette[x]="#"+color+color+'ff'; // colors 0-8: the Red and Green components change, Blue=FF
+        pallette[x+8]='#00ff'+color;      // colors 8-16: the Blue component changes, Red and Green=FF
+        pallette[17+x]="#"+color+'0000';  // colors 17-25: the Red component changes, Green and Blue=0
+        }
+ 
+a=setInterval(julia,10);
+ 
+</script>
+
+</body></html>
