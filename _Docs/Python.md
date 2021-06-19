@@ -34,6 +34,11 @@
 - [Reinforcement Learning Test]()
 
 ### Autoencoders - Article Aid
+A project created as a visual and code-based aid for an article I wrote on autoencoders. This project contains three unique autoencoders of varying levels of complexity, all trained on the MNIST dataset.
+1. Single-layer Autoencoder
+2. Multi-layer Autoencoder
+3. Convolutional Autoencoder
+Here is a [link](https://colab.research.google.com/drive/1DBOe9256acEyJ0rAjSohsm75oRHUmgJg?usp=sharing) to a live colab doc containing this project.
 ### Celeba Autoencoder
 ### Micro MNIST Autoencoder
 ### Pokemon Autoencoder
