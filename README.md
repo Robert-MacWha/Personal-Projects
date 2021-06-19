@@ -4,7 +4,7 @@
 # Primary Categories
 - [Python projects](#python-projects)
 - [Javascript projects](#javascript-projects)
-- [C / C++ Projects](#c-/-c++-projects)
+- [C / C++ Projects](#C-/-C++-projects)
 - [Java Projects](#java-projects)
 
 ## [Python Projects](_Docs/Python.md)
