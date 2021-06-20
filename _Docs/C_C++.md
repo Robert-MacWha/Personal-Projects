@@ -1,4 +1,6 @@
 # [C / C++ Projects](docs/C_C++.md)
+Note: All C / C++ projects are only available for download. 
+
 ## C
 - [Flowing Lights](#flowing-lights)
 - [Simple 8-Bit Counter](#simple-8-bit-counter)
@@ -20,7 +22,7 @@
 A simple project created to help me learn about interacting with Arduinos and individual pins.  This project enables and disables pins in such a way that attached LEDs will appear to smoothly flow in a line.
 
 ### Simple 8-Bit Counter
-<img align="right" width="25%" src="../C_C++\C\Simple_8-bit_Binary_Counter\Project.jpg"></img>
+<img align="right" width="25%" src="../_Docs\Images\8-bit-counter.JPG"></img>
 A 8-bit counter that displays the current count through attached LEDs. Interestingly, by removing the delay and changing the number of bits being counted you can get a feel for the clock speed of the arduino.
 
 ### Gyroscope SDA/SCL Communication Test
@@ -54,5 +56,5 @@ A medium-scale project on creating a functional game of war played over the term
 A medium-scale project on creating a functional mock database for a school that contains functionality for teachers, students, and classes.  A precursor to my [Airline Database Project](#airline-database).
 
 ### :star: Airline Database
-<img align="left" width="30%" src="../C_C++\C++\Airline Database\Documentation.PNG"></img>
+<img align="left" width="30%" src="../_Docs\Images\Airline-Database.PNG"></img>
 A large-scale project on creating a functional mock airline database with documentation.  This was created as a final project for my Grade 12 ITGS course.  Documentation is included inside of the project files and a website was also created that details the more minute details, currently hosted [here](https://robert-macwha.github.io/Extra/ITGS%20Documentation/index.html).
