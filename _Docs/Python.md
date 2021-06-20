@@ -125,7 +125,7 @@ My first proper AI project.  Technically I made some NEAT-lite implementations f
 Here is a [link](https://colab.research.google.com/drive/1QSThImwJnCPjCUT0sqjDlAU80vEjbuxG?usp=sharing) to a live colab doc containing this project.
 
 ### :star: Flowkey Web Scraper
-<img align="left" width="40%" src="../_Docs\Images\Flowkey-web-scraper.PNG"></img>
+<img align="left" width="40%" src="../_Docs\Images\Flowkey-Web-Scraper.PNG"></img>
 A mid-scale python/JS project I created to scrape sheet music from Flowkey.  This project was very much made for myself alone, so it is very inflexible and executes commands via the windows terminal (This means don't trust it!).
 
 This project takes a URL of a piece of sheet music from Flowkey and downloads the entire collection of images for said piece of music.  It then uses a branch of tesseract to convert the jpg image of sheet music into notation-based sheet music which is passed into musescore and converted into a formatted PDF.
