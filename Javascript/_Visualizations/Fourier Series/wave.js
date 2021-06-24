@@ -14,7 +14,7 @@ class Wave {
 
     draw() {
         noFill();
-        stroke(255);
+        stroke(20);
         strokeWeight(0.5);
 
         beginShape();

@@ -23,10 +23,10 @@ function setup() {
 }
 
 function draw () {
-  background(255);
+  background(220);
 
   power = pSlider.value();
-  pP.html(power);
+  pP.html('Current polynomial degree: ' + (power-1));
 
   tf.tidy (() => {
     if (x_vals.length > 0) {
@@ -39,7 +39,7 @@ function draw () {
 
   stroke(0, 0, 0, 100);
   strokeWeight(2);
-  fill(255, 255, 255, 200);
+  fill(45, 74, 83, 200);
   for(let i = 0; i < x_vals.length; i ++) {
     let px = map(x_vals[i], -1, 1, 0, width)
     let py = map(y_vals[i], -1, 1, height, 0);

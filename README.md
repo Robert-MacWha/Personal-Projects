@@ -9,40 +9,46 @@
 - [Java Projects](#java-projects)
 
 ## :star: Starred
-- [:star: Pong Generator](#)
-- [:star: NEAT Racecars](#)
-- [:star: CNN OCR](#)
-- [:star: Flowkey Web Scraper](#)
-- [:star: Polynomial Regression](#)
-- [:star: Smart Rockets](#)
-- [:star: Wireworld](#)
-- [:star: Airline Database](#)
-- [:star: Reinforcement Learning - Article Aid](#)
-- [:star: Marching Squares](#)
+<img align="right" width="18%" src='_Docs\Images\Pong-AI.gif'></img>
+- :star: Pong Generator
+- :star: NEAT Racecars
+- :star: CNN OCR
+- :star: Flowkey Web Scraper
+- :star: Polynomial Regression
+- :star: Smart Rockets
+- :star: Wireworld
+- :star: Airline Database
+- :star: Reinforcement Learning - Article Aid
+- :star: Marching Squares
 
 ## [Python Projects](_Docs/Python.md)
-### Autoencoders
+## Autoencoders
 - Autoencoders - Article Aid
-- Celeba Autoencoder
 - Micro MNIST Autoencoder
-- :star: Pong Generator
+- Celeba Autoencoder
+- :star: ML Pong Generator
 
-### Convolutional Networks
+## Convolutional Networks
 - CNN CIFAR
-- :star: CNN OCR
 - RGB-Depth CNN
+- :star: CNN OCR
 
-### Generative Adversarial Networks
+## Generative Adversarial Networks
+<img align="right" width="45%" src='_Docs\Images\Flowkey-Web-Scraper.PNG'></img>
 - MNIST GAN
 - Pokemon GAN
 
-### Long-Short Term Memory Networks
+## Long-Short Term Memory Networks
 - Linear -> LSTM
 - MNIST RNN
-- Simple RNN
 - Stock Predictor
 
-### Misc
+## Reinforcement Learning
+- Acrobat Q Learning
+- :star: Reinforcement Learning - Article Aid
+
+## Miscellaneous
+<img align="right" width="45%" src='_Docs\Images\Flowkey-Web-Scraper.PNG'></img>
 - Basic Linear Regression (First AI project!)
 - :star: Flowkey Web Scraper
 - Hashcode 2020 Problem
@@ -50,17 +56,9 @@
 - Spam Detector
 - Transfer Learning Test
 
-### Reinforcement Learning
-- Acrobat Q Learning
-- MaRLio
-- PPO Test
-- :star: Reinforcement Learning - Article Aid
-- Reinforcement Learning Test
-
 ## [Javascript Projects](_Docs/Javascript.md)
 ### AI
-- NEAT Implementation
-- Neural Network Example
+- Manual Neural Network
 - :star: Polynomial Regression
 - XOR Visualization
 
@@ -71,25 +69,19 @@
 - :star: Smart Rockets
 - Steering Agents
 
-### Misalanious
+### Miscellaneous
 - Path Difference
 - Directional Path Difference
 - Calculating PI With Blocks
 - Calculating PI With Fractions
-- Async Tutorial
 
 ### Perlin Noise
-- Coloured 2D Islands
-- Coloured 2D Heightmaps
-- Heightmap Generator
-- Noisy Flow Chart
-- Noisy Noise
 - Perlin Noise VS Random Noise
+- Coloured 2D Islands
+- Warped 2D Islands
 - Ridged Noise Heightmap
-- Ridged 2D Islands
-- Simple 2D Heightmaps
-- Warped 2D Heightmaps
-- Wirley Noise
+- Worley Noise
+- Noisy Flow Chart
 
 ### Physics Simulations
 - Bouncing Ray
@@ -98,7 +90,6 @@
 - Raycasting
 - Spring Simulation
 - Water Particle Simulation
-- Bi-State Wave Cellular Autonoma
 - :star: Wireworld
 
 ### Visualizations
@@ -108,8 +99,9 @@
 - Fern Visualizer
 - Fourier Series
 - Fourier Transform
-- Fractle Generator
+- Fractal Generator
 - :star: Marching Squares
+- Quadtree Implementation
 - Vertex Shader Test
 
 ## [C / C++ Projects](_Docs/C_C++.md)

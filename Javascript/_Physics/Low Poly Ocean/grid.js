@@ -17,7 +17,7 @@ class Grid {
   
   update () {
     this.off.add(createVector(1, -0.5));
-    let mouseP = createVector(mouseX, mouseY);
+
     for(let x = 1; x < this.dim.x+3; x ++) {
       for (let y = 1; y < this.dim.y+3; y ++) {
         this.grid[x][y].update(this.off);

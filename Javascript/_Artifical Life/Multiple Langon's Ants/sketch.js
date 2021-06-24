@@ -1,7 +1,9 @@
+const antCount = 1;
+
 let ants = [];
 var WorldArray;
-let WorldSize = 400;
-let boxSize = 2;
+let WorldSize = 100;
+let boxSize = 10;
 
 function setup() {
   createCanvas(WorldSize * boxSize, WorldSize * boxSize);
@@ -10,27 +12,26 @@ function setup() {
   for(let x = 0; x < WorldSize; x ++) {
     WorldArray[x] = new Array(WorldSize); 
   }
-  for(let i = 0; i < 12; i ++) {
+  for(let i = 0; i < antCount; i ++) {
     ants.push(new Ant());
     ants[ants.length-1].create();
   }
 }
 
 function draw() {
-  background(255);
+  background(220);
   
   //ants.push(new Ant());
   //ants[ants.length-1].create();
-  for(let i = 0; i < 50; i ++) {
-    for(let j = 0; j < ants.length; j ++) {
-      ants[j].move(); 
-    }
+  for(let j = 0; j < ants.length; j ++) {
+    ants[j].move(); 
   }
   for(let x = 0; x < WorldSize; x ++) {
     for(let y = 0; y < WorldSize; y ++) {
-      fill(0, 0, 0);
+      fill(45, 74, 83);
+      noStroke();
       if(WorldArray[x][y] == 1) {
-        square(x * boxSize, y * boxSize, boxSize, boxSize); 
+        rect(x * boxSize, y * boxSize, boxSize, boxSize); 
       }
     }
   }
@@ -48,12 +49,12 @@ class Ant {
   }
   
   move () {
-    //Move in the propper direction
+    //Move in the correct direction
     if (this.dir == 0) { this.y ++}
     if (this.dir == 2) { this.y --}
     if (this.dir == 1) { this.x ++}
     if (this.dir == 3) { this.x --}
-    //Turn in the propper direction
+    //Turn in the correct direction
     if (WorldArray[this.x][this.y] == 0) {
       this.dir ++; 
     } else {

@@ -1,9 +1,11 @@
 # Python Projects
+All python projects are either hosted in google colab (recent) or available for download (old / larger).
+
 ## Autoencoders
 - [Autoencoders - Article Aid](#)
 - [Micro MNIST Autoencoder](#)
 - [Celeba Autoencoder](#)
-- [:star: Pong Generator](#)
+- [:star: ML Pong Generator](#)
 
 ## Convolutional Networks
 - [CNN CIFAR](#)
@@ -20,10 +22,10 @@
 - [Stock Predictor](#)
 
 ## Reinforcement Learning
-- [Acrobot Q Learning](#)
+- [Acrobat Q Learning](#)
 - [:star: Reinforcement Learning - Article Aid](#)
 
-## Misc
+## Miscellaneous
 - [Basic Linear Regression (First AI project!)](#)
 - [:star: Flowkey Web Scraper](#)
 - [Hashcode 2020 Problem](#)
@@ -51,18 +53,18 @@ An autoencoder trained on the Celeba dataset with the purpose of being able to g
 
 Here is a [link](https://drive.google.com/drive/folders/1Ah_bEe5OuaQFJvAR0M5MajOO_qxWdtLd?usp=sharing) to a live colab doc containing this project.
 
-### :star: Pong Generator
+### :star: ML Pong Generator
 <img align="left" width="40%" src="../_Docs\Images\Pong-AI.gif"></img>
-A large-scale project I created as an attempt to generate a fully-interactive game of Pong where the Input Management, Physics, and Rendering were all handled by AI.  This project was moderately successful if not extremely sensitive to changes. I was able to generate a video of a random agent playing within the AI-generated environment.  However, due to computational constraints I was unable to play in the AI environment myself.
+A large-scale project I created as an attempt to generate a fully-interactive game of Pong where the Input Management, Physics, and Rendering are all handled by AI.  This project was moderately successful if not extremely sensitive to changes. I was able to generate a video of a random agent playing within the AI-generated environment.  However, due to computational constraints I was unable to play in the AI environment myself.
 
-The AI environment is made up of two distinct models - an engine and a renderer.  The engine is a feed-forward network that manages input management and physics interactions.  The renderer is the decoder portion of an autoencoder and manages converting the latent representation created by the engine and turning it into a sensical image.
+The AI environment is made up of two distinct models - an engine and a renderer.  The engine is a feed-forward network that manages input management and physics interactions.  The renderer is the decoder portion of an autoencoder and manages converting the latent representation created by the engine and turning it into a sensible image.
 
 Separate models were used for the renderer and engine portions because it allowed me to train them separately.  This meant that I could go over more iterations of different hyperparameters in less time.
 
 This project works best on a local machine. Here is a [link](https://drive.google.com/drive/folders/1IERfi_D6OR623-C8V3DVgCRJYochLg_v?usp=sharing) to a google drive containing all the required files.
 
 ### CNN CIFAR
-A convolutional classifier I created when learning about colvolutional neural networks.  This model is able to classify images from the CIFAR-10 dataset.
+A convolutional classifier I created when learning about convolutional neural networks.  This model is able to classify images from the CIFAR-10 dataset.
 
 Here is a [link](https://colab.research.google.com/drive/1Tj-hKWnQukDV4l3lhaRbjqc_6WcKx7Qa?usp=sharing) to a live colab doc containing this project.
 
@@ -87,7 +89,7 @@ A small project I created when first learning about GANs.  The script uses the M
 Here is a [link](https://colab.research.google.com/drive/1AAd2j3OaNh0xNnZBmFIIE6tCOIy2uk7q?usp=sharing) to a live colab doc containing this project.
 
 ### Pokemon GAN
-A small project I made further exploring GANS where I attempted to generate novel pokemon.  While the end-results of this project were relatively disappointing I believe that this is mainly due to the small amount of training data and the frankly outlandish designs.
+A small project I made further exploring GANs where I attempted to generate novel pokemon.  While the end-results of this project were relatively disappointing I believe that this is mainly due to the small amount of training data and the frankly outlandish designs.
 
 Here is a [link](https://drive.google.com/drive/folders/1x3ggAbquVTcbedBBnkYgoos4ZiECSZ-A?usp=sharing) to a live colab doc containing this project.
 
@@ -108,7 +110,7 @@ A RNN I created with the goals of either accurately predicting stocks or of show
 
 If you know of anyone who needs to learn this lesson, here is a [link](https://colab.research.google.com/drive/1fsj9oKHIXI8u0UVtvF5hydxhMlaOt6gE?usp=sharing) to a live colab doc containing this project.
 
-### Acrobot Q Learning
+### Acrobat Q Learning
 The first Reinforcement Learning project I created, functioning as an intro to how RL worked and how to setup the surrounding environments & models.  This project contains a basic agent that interacts with OpenAI Gym's Acrobat environment.
 
 This project works best on a local machine. Here is a [link](https://drive.google.com/drive/folders/1WqVG7bSmJwPnClsoeqiNH38IJy1dVue2?usp=sharing) to a google drive containing all the required files.

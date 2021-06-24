@@ -1,5 +1,5 @@
 let population = [];
-let boidCount = 200;
+let boidCount = 100;
 let boidSize = 0.2;
 
 let FOV = 90;
@@ -53,7 +53,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 50);
+  background(220);
   //Update vars
   Range = rangeSlider.value();
   FOV = FOVSlider.value();

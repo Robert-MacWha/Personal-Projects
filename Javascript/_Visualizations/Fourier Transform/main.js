@@ -4,7 +4,7 @@ let time = 0;
 const origin_dist = 0.6;
 const origin_offset = 25;
 
-const path = new Path(200);
+const path = new Path(350);
 
 let fourierX;
 let fourierY;
@@ -16,10 +16,10 @@ function setup() {
     let xs = [];
     let ys = [];
 
-    for(let i = 0; i < 200; i ++) {
+    for(let i = 0; i < 300; i ++) {
         
-        let angle = map(i, 0, 200, 0, TWO_PI);
-        xs[i] = 50 * tan(angle / 10);
+        let angle = map(i, 0, 100, 0, TWO_PI);
+        xs[i] = 50 * cos(angle / 3);
         ys[i] = 50 * sin(angle);
 
     }
@@ -29,7 +29,7 @@ function setup() {
 }
 
 function draw() {
-    background(0);
+    background(220);
 
     let vx;
     let vy;
@@ -75,11 +75,11 @@ function fourier(f, offset) {
         const new_x = x + rad * cos(freq * time + phase + offset);
         const new_y = y + rad * sin(freq * time + phase + offset);
 
-        fill(255);
+        fill(20);
         noStroke();
         ellipse(new_x, new_y, rad / 10);
 
-        stroke(255, 100);
+        stroke(20, 100);
         strokeWeight(1);
         line(x, y, new_x, new_y);
 

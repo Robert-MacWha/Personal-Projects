@@ -50,7 +50,7 @@ class Rocket {
         //Push and pop are to keep the translations and rotations contained
         push();
         noStroke();
-        fill(255, 255, 255, 150);
+        fill(45, 74, 83, 150);
         //Translations
         translate(this.pos.x, this.pos.y);
         rotate(this.vel.heading());

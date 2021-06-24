@@ -17,17 +17,18 @@ function setup() {
   createCanvas(600, 600);
   background(255);
   
-  frequencySlider = createSlider(0, 0.2, 0.01, 0.0001);
+  frequencySlider = createSlider(0.001, 0.05, 0.01, 0.0001);
+  frequencySlider.position(20, height + 30);
   let frequencyLabel = createP('- Amplitude');
-  frequencyLabel.position(140, height - 15);
+  frequencyLabel.position(160, height + 15);
   
   thresholdSlider = createSlider(0, 1, 0.2, 0.01);
-  thresholdSlider.position(0, height + 30);
+  thresholdSlider.position(20, height + 60);
   let thresholdLabel = createP('- Threshold');
-  thresholdLabel.position(140, height + 15);
+  thresholdLabel.position(160, height + 45);
   
   islandButton = createButton('Toggle Island Mode');
-  islandButton.position(0, height + 60);
+  islandButton.position(20, height + 90);
   islandButton.mousePressed(() => {
     
     island = ! island;

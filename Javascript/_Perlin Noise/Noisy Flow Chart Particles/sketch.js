@@ -13,11 +13,11 @@ let particles = [];
 function setup() {
   createCanvas(gridSize, gridSize);
   
-  for(let i = 0; i < 200; i ++) {
+  for(let i = 0; i < 100; i ++) {
     particles[i] = new Particle(i); 
   }
   
-  background(255);
+  background(220);
 }
 
 function draw() {
@@ -49,7 +49,7 @@ function calculateNoiseValues() {
     }
   }
   
-  z_pos += 0.00005;
+  z_pos += 0.00008;
 }
 
 function drawNoiseValues () {

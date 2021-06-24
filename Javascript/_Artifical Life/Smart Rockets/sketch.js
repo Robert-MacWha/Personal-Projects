@@ -62,11 +62,8 @@ function setup() {
 }
 
 function draw() {
-  background(21);
-  //Slider controlling the simulation speed
-  //simSpeed = sSlider.value();
-  //mChance = mSlider.value()/100;
-  //Update the rockets
+  background(220);
+
   if (hyperSpeed) {
     simSpeed = 400;
   }

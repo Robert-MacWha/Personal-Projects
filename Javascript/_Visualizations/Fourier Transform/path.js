@@ -14,7 +14,7 @@ class Path {
 
     draw() {
         noFill();
-        stroke(255);
+        stroke(20);
 
         for(let i = 0; i < this.points.length - 1; i ++) {
             

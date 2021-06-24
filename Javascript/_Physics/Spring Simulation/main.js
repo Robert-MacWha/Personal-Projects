@@ -9,7 +9,7 @@ function setup() {
 }
   
 function draw() {
-    background(21);
+    background(220);
 
     string.update(createVector(mouseX, mouseY));
     string.draw();

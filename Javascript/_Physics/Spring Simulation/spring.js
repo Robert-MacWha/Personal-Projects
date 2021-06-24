@@ -35,8 +35,8 @@ class Spring {
         push();
 
             noFill();
-            stroke(255, 100);
-            strokeWeight(2);
+            stroke(114, 188, 212, 255);
+            strokeWeight(4);
 
             let a = this.p1.pos;
             let b = this.p2.pos;

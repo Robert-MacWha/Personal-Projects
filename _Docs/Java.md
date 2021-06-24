@@ -1,5 +1,5 @@
 # Java Projects
-Note: All Java projects are only available for download. 
+All Java projects are only available for download. 
 
 ## Processing
 - [Elementary Particle Simulation](#elementary-particle-simulation)
@@ -25,7 +25,9 @@ A simple processing script that generates 3D graphs of arbitrary equations.  I r
 A particle simulation that attempts to create a fluid that reacts in a similar way water.  Through emergent mechanics this fluid can react to waves, hold surface tension, and generally look cool.
 
 ### NEAT Implementation
-An implementation of the NEAT algorithm written in pure java. A precursor to my [Visual NEAT Implementation](#visual-neat-implementation) and to my [NEAT Racecar Project](#neat-racecar).
+An implementation of the NEAT algorithm written in pure java. 
+
+A precursor to my [Visual NEAT Implementation](#visual-neat-implementation) and to my [NEAT Racecar Project](#neat-racecar).
 
 ### :star: NEAT Racecars
 <img align="left" width="40%" src="../_Docs\Images\Racecar-Evolution.PNG"></img>

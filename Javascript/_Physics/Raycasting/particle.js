@@ -13,7 +13,7 @@ class Particle {
     }
 
     show () {
-        fill(255);
+        fill(114, 188, 212);
         ellipse (this.pos.x, this.pos.y, 16, 16);
         for(let ray of this.rays) {
             ray.show();

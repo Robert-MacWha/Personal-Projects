@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(220);
   for(let wall of walls) {
     wall.show();
   }

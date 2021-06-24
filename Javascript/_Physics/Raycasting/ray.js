@@ -6,7 +6,7 @@ class Ray {
 
     show() {
         //Create a line from the ray's pos in the direction of the ray's direction by x
-        stroke(255, 100);
+        stroke(100, 150, 180, 100);
         push();
         translate(this.pos.x, this.pos.y);
         line(0, 0, this.dir.x*10, this.dir.y*10);

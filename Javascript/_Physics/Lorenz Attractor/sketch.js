@@ -23,6 +23,7 @@ let tOffset = 100;
 
 function setup() {
   createCanvas(400, 400, WEBGL);
+  background(220);
   colorMode(HSB);
   points.push(createVector(0, 0, 0));
   
@@ -30,7 +31,6 @@ function setup() {
   stroke(0);
   strokeWeight(4);
   translate(0, 0, -200);
-  background(255, 0.01);
   
   for(let i = 0; i < tCount; i ++) {
     trailers[i] = new Trailer(i*tOffset);

@@ -1,5 +1,5 @@
 # [C / C++ Projects](docs/C_C++.md)
-Note: All C / C++ projects are only available for download. 
+All C / C++ projects are only available for download. 
 
 ## C
 - [Flowing Lights](#flowing-lights)
@@ -47,7 +47,9 @@ A project following an introductory OOP course that covered class inheritance an
 A project attempting to understand how to use C++'s SDL library to create a window and populate it with pixels.  This project technically works, however there is a limitation where the program doesn't work when trying to render more than a specific number of pixels.
 
 ### Deck of Cards
-A small-scale project on creating a functional deck of cards that can be initialized, shuffled, and dealt. A precursor to my [War Project](#war-game).
+A small-scale project on creating a functional deck of cards that can be initialized, shuffled, and dealt. 
+
+A precursor to my [War Project](#war-game).
 
 ### War Game
 A medium-scale project on creating a functional game of war played over the terminal.
