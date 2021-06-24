@@ -9,7 +9,7 @@
 - [Java Projects](#java-projects)
 
 ## :star: Starred
-<img align="right" width="18%" src='_Docs\Images\Pong-AI.gif'></img>
+<img align="right" width="28%" src='_Docs\Images\Pong-AI.gif'></img>
 - :star: Pong Generator
 - :star: NEAT Racecars
 - :star: CNN OCR
@@ -34,7 +34,7 @@
 - :star: CNN OCR
 
 ## Generative Adversarial Networks
-<img align="right" width="45%" src='_Docs\Images\Flowkey-Web-Scraper.PNG'></img>
+<img align="right" width="25%" src='_Docs\Images\MNIST-GAN.png'></img>
 - MNIST GAN
 - Pokemon GAN
 
