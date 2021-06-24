@@ -54,7 +54,7 @@ An autoencoder trained on the Celeba dataset with the purpose of being able to g
 Here is a [link](https://drive.google.com/drive/folders/1Ah_bEe5OuaQFJvAR0M5MajOO_qxWdtLd?usp=sharing) to a live colab doc containing this project.
 
 ### :star: ML Pong Generator
-<img align="left" width="40%" src="../_Docs\Images\Pong-AI.gif"></img>
+<img align="left" width="35%" src="../_Docs\Images\Pong-AI.gif"></img>
 A large-scale project I created as an attempt to generate a fully-interactive game of Pong where the Input Management, Physics, and Rendering are all handled by AI.  This project was moderately successful if not extremely sensitive to changes. I was able to generate a video of a random agent playing within the AI-generated environment.  However, due to computational constraints I was unable to play in the AI environment myself.
 
 The AI environment is made up of two distinct models - an engine and a renderer.  The engine is a feed-forward network that manages input management and physics interactions.  The renderer is the decoder portion of an autoencoder and manages converting the latent representation created by the engine and turning it into a sensible image.
