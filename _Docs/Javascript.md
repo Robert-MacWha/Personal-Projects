@@ -76,7 +76,7 @@ A precursor to my [Polynomial Regression project](#polynomial-regression).
 
 A live version of this project can be found [here]()
 
-### Polynomial Regression
+### :star: Polynomial Regression
 <img align="right" width="25%" src="../_Docs\Images\Polynomial-Regression.gif"></img>
 A basic polynomial regression model written in tensorflow JS.  The user places points on the canvas and defines the degree of the polynomial, after which tensorflow optimizes the values of the polynomial's coefficients to meet all the points.
 
@@ -110,7 +110,7 @@ This project is fully automatic and should run indefinitely.  While it does tech
 
 A live version of this project can be found [here]()
 
-### Smart Rockets
+### :star: Smart Rockets
 <img align="right" width="35%" src="../_Docs\Images\Smart-Rockets.PNG"></img>
 A mid-scale project I created while learning about different ML techniques.  This project involved creating a species of smart rockets which follow a evolved set of instructions to try and reach a goal.  Since this is a relatively primitive ML approach the instructions are simply a set of acceleration vectors.  The best-preforming rockets will have a higher chance to pass down their genes, which will be randomly mutated between generations.
 
@@ -205,7 +205,7 @@ A precursor to my [Water Particle Simulation project](./Java.md) written in Proc
 
 A live version of this project can be found [here]()
 
-### Wireworld
+### :star: Wireworld
 <img align="right" width="20%" src="../_Docs\Images\Wireworld.PNG"></img>
 A simple implementation of the wireworld cellular automata.  I originally planned to implement more complex logic gates (currently only the and gate exists) but decided against it once I bought an arduino.
 
@@ -258,7 +258,7 @@ A project I created while trying to learn about vertex shaders.  Originally made
 
 A live version of this project can be found [here]()
 
-### Marching Squares
+### :star: Marching Squares
 <img align="left" width="20%" src="../_Docs\Images\Marching-Squares.gif"></img>
 An implementation of the marching squares algorithm which I created while learning about different 2d rendering techniques.  I originally planned to turn this into a map editor but found it more fun to just let the shapes change using perlin noise.
 
