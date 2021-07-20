@@ -3,51 +3,51 @@ All Javascript projects are hosted on p5.js and are therefor usable in the brows
 
 ## AI
 <img align="right" width="20%" src="../_Docs\Images\Polynomial-Regression.gif"></img>
-- Manual Neural Network
-- XOR Visualization
-- :star: Polynomial Regression
+- [Manual Neural Network - Article Aid](#)
+- [XOR Visualization](#)
+- [:star: Polynomial Regression](#)
 
 ## Artificial Life
-- Population Growth Model
-- Langdon's Ant
-- Boids
-- Steering Agents
-- :star: Smart Rockets
+- [Population Growth Model](#)
+- [Langdon's Ant](#)
+- [Boids](#)
+- [Steering Agents](#)
+- [:star: Smart Rockets](#)
 
 ## Miscellaneous
-- Path Difference Calculator
-- Directional Path Difference Calculator
-- Calculating PI With Blocks
-- Calculating PI With Fractions
+- [Path Difference Calculator](#)
+- [Directional Path Difference Calculator](#)
+- [Calculating PI With Blocks](#)
+- [Calculating PI With Fractions](#)
 
 ## Perlin Noise
 <img align="right" width="20%" src="../_Docs\Images\Coloured-2D-Islands.PNG"></img>
-- Perlin Noise VS Random Noise
-- Coloured 2D Islands
-- Warped 2D Islands
-- Ridged Noise Heightmap
-- Worley Noise
-- Noisy Flow Chart
+- [Perlin Noise VS Random Noise - Article Aid](#)
+- [Coloured 2D Islands - Article Aid](#)
+- [Warped 2D Islands - Article Aid](#)
+- [Ridged Noise Heightmap - Article Aid](#)
+- [Worley Noise](#)
+- [Noisy Flow Chart](#)
 
 ## Physics Simulations
-- Lorenz Attractor
-- Low-Poly Ocean
-- Raycasting
-- Spring Simulation
-- Water Particle Simulation
-- :star: Wireworld
+- [Lorenz Attractor](#)
+- [Low-Poly Ocean](#)
+- [Raycasting](#)
+- [Spring Simulation](#)
+- [Water Particle Simulation](#)
+- [:star: Wireworld](#)
 
 ## Visualizations
 <img align="right" width="30%" src="../_Docs\Images\Marching-Squares.gif"></img>
-- Arbitrary Function Mapper
-- Complex Equation Grapher
-- Quadtree Implementation
-- Fourier Series
-- Fourier Transform
-- Fractal Generator
-- Fractal Fern Generator
-- Vertex Shader Test
-- :star: Marching Squares
+- [Arbitrary Function Mapper](#)
+- [Complex Equation Grapher](#)
+- [Quadtree Implementation](#)
+- [Fourier Series](#)
+- [Fourier Transform](#)
+- [Fractal Generator](#)
+- [Fractal Fern Generator](#)
+- [Vertex Shader Test](#)
+- [:star: Marching Squares](#)
 
 ### Manuel Neural Network - Article Aid
 A simple manuel neural network I created as an aid for a article I wrote on machine learning.  This neural network (or more accurately, linear equation) is made up of two variables, <b>m</b> and <b>b</b>, which are controlled by the user using sliders.
